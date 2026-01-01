@@ -39,7 +39,31 @@ form {
   gap: 10px;
 }
 
-#input {
+#input1 {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  color: white;
+  padding-left: 12px;
+  width: 350px;
+  height: 35px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+}
+
+#input2 {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  color: white;
+  padding-left: 12px;
+  width: 350px;
+  height: 35px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+}
+
+#input3 {
   display: flex;
   flex-direction: column;
   background: transparent;

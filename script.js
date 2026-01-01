@@ -6,9 +6,12 @@ const input2 = document.querySelector('#input2');
 const input3 = document.querySelector('#input3');
 
 btn.addEventListener('click', () => {
+    e.preventDefault();
+
     const content1 = input1.value;
     const content2 = input2.value;
     const content3 = input3.value;
+    
     mail.textContent = content2;
     attendee.textContent = content1;
 })
